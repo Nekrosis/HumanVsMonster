@@ -1,6 +1,10 @@
 package game;
 
 
+import ben.Ben;
+import ben.Monster;
+import ben.Player;
+
 public class Main {
     public static void main(String[] args) throws InterruptedException {
         Ben player = new Player();

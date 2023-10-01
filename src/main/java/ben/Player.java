@@ -1,4 +1,6 @@
-package game;
+package ben;
+
+import ben.Ben;
 
 public class Player extends Ben {
     private String name = "Player";

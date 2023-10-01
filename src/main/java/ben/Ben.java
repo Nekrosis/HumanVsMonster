@@ -1,4 +1,4 @@
-package game;
+package ben;
 
 import java.util.Random;
 

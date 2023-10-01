@@ -1,5 +1,7 @@
 package game;
 
+import ben.Ben;
+
 import java.util.Random;
 
 import static java.lang.Thread.sleep;
