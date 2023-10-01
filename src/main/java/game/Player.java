@@ -5,6 +5,7 @@ public class Player extends Ben {
 
     @Override
     public String characteristic() {
+
         return "Вы создали нового " + name + "\n"
                 + "Его характеристики:\n" +
                 "Атака: " + attack + "\n" +

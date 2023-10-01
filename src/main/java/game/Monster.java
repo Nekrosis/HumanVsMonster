@@ -6,6 +6,7 @@ public class Monster extends Ben {
 
     @Override
     public String characteristic() {
+
         return "Вы встретили нового " + name + "\n"
                 + "Его характеристики:\n" +
                 "Атака: " + attack + "\n" +

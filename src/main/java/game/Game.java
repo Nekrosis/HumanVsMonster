@@ -10,6 +10,7 @@ public class Game {
 
     private static int attackModifier(int attack, int defense) {
         int result = attack - defense + 1;
+
         if (result <= 0) {
             return 1;
         }
@@ -19,6 +20,7 @@ public class Game {
     private static boolean cubs(int count) {
         for (int i = 0; i < count; i++) {
             int number = new Random().nextInt(6) + 1;
+
             if (number == 6 || number == 5) {
                 return true;
             }
